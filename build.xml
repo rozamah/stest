@@ -28,8 +28,8 @@ includeantruntime="false">
 </classpath>
 <formatter type="brief" usefile="false"/>
 <batchtest >
-<fileset dir="${result.javaclasses.dir}" >
-<include name="**/*test.class"/>
+<fileset dir="${result.javaclasses.dir}/stest/" >
+<include name="**/*facebooklogin.class"/>
 </fileset>
 </batchtest>
 </junit>
